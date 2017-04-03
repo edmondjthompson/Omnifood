@@ -3,13 +3,7 @@ Orange: #e67e22
 */
 
 
-/*-------------------------------*/
-
-
-/* BASIC SETUP */
-
-
-/*-------------------------------*/
+/*---- BASIC SETUP ----*/
 
 * {
     margin: 0;
@@ -41,13 +35,7 @@ body {
 }
 
 
-/*------------------------------*/
-
-
-/* REUSABLE COMPONENTS*/
-
-
-/*-------------------------------*/
+/*---- REUSABLE COMPONENTS ----*/
 
 .row {
     max-width: 1140px;
@@ -63,7 +51,7 @@ section {
 }
 
 
-/* ---- HEADINGS ---- */
+/*---- HEADINGS ----*/
 
 h1,
 h2,
@@ -105,7 +93,7 @@ h2:after {
 }
 
 
-/* ---- PARAGRAPHS ---- */
+/*---- PARAGRAPHS ----*/
 
 .long-copy {
     line-height: 145%;
@@ -119,7 +107,7 @@ h2:after {
 }
 
 
-/* ---- ICONS ---- */
+/*---- ICONS ----*/
 
 .icon-big {
     font-size: 350%;
@@ -142,7 +130,7 @@ h2:after {
 }
 
 
-/* ---- LINKS ---- */
+/*---- LINKS ----*/
 
 a:link,
 a:visited {
@@ -158,12 +146,10 @@ a:hover,
 a:active {
     color: #555;
     border-bottom: 1px solid transparent;
-    -webkit-transition: border-bottom 0.2s, color 0.2s;
-    transition: border-bottom 0.2s, color 0.2s;
 }
 
 
-/* ---- BUTTONS ---- */
+/*---- BUTTONS ----*/
 
 .btn:link,
 .btn:visited,
@@ -212,13 +198,7 @@ input[type=submit] {
 }
 
 
-/*------------------------------*/
-
-
-/* HEADER */
-
-
-/*-------------------------------*/
+/*---- HEADER ----*/
 
 header {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
@@ -255,7 +235,7 @@ header {
 }
 
 
-/* Main Navi*/
+/*---- MAIN NAVIGATION ----*/
 
 .main-nav {
     float: right;
@@ -283,12 +263,10 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
-    -webkit-transition: border-bottom 0.2s;
-    transition: border-bottom 0.2s;
 }
 
 
-/* Sticky navi */
+/*---- STICKY NAVIGATION ----*/
 
 .sticky {
     position: fixed;
@@ -297,9 +275,10 @@ header {
     width: 100%;
     background-color: rgba(225, 225, 225, 0.98);
     box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
 }
 
-.main-nav {
+.sticky .main-nav {
     margin-top: 18px;
 }
 
@@ -318,26 +297,14 @@ header {
 }
 
 
-/*------------------------------*/
-
-
-/* FEATURES */
-
-
-/*-------------------------------*/
+/*---- FEATURES ----*/
 
 .section-features .long-copy {
     margin-bottom: 30px;
 }
 
 
-/*------------------------------*/
-
-
-/* MEALS */
-
-
-/*-------------------------------*/
+/*---- MEALS ----*/
 
 .section-meals {
     padding: 0;
@@ -380,13 +347,7 @@ header {
 }
 
 
-/*------------------------------*/
-
-
-/* HOW IT WORKS */
-
-
-/*-------------------------------*/
+/*---- HOW IT WORKS ----*/
 
 .section-steps {
     background-color: #f4f4f4;
@@ -440,13 +401,7 @@ header {
 }
 
 
-/*------------------------------*/
-
-
-/* CITIES */
-
-
-/*-------------------------------*/
+/*---- CITIES ----*/
 
 .box img {
     width: 100%;
@@ -459,13 +414,7 @@ header {
 }
 
 
-/*------------------------------*/
-
-
-/* TESTIMONIAL */
-
-
-/*-------------------------------*/
+/*---- TESTIMONIAL ----*/
 
 .section-testimonials {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
@@ -508,13 +457,7 @@ cite img {
 }
 
 
-/*------------------------------*/
-
-
-/* PLANS */
-
-
-/*-------------------------------*/
+/*---- PLANS ----*/
 
 .section-plans {
     background-color: #f4f4f4;
@@ -569,13 +512,7 @@ cite img {
 }
 
 
-/*------------------------------*/
-
-
-/* PLANS */
-
-
-/*-------------------------------*/
+/*---- CONTACT ----*/
 
 .contact-form {
     width: 60%;
@@ -605,13 +542,7 @@ input[type=checkbox] {
 }
 
 
-/*------------------------------*/
-
-
-/* FOOTER */
-
-
-/*-------------------------------*/
+/*---- FOOTER ----*/
 
 footer {
     background-color: #333;
